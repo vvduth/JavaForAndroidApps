@@ -1,6 +1,6 @@
-## Getting Started
+## Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+I found this challenge on Internet while I was learning OOP in Java. It is very simple, simulate your phone book and messeage box of the phone.
 
 ## Folder Structure
 
