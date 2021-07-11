@@ -53,9 +53,7 @@ private static void sendNewMess(){
             } 
         
         }
-        if ( !doesExist){
-            System.out.println("Sorry, no result, please check the name again");
-        } else {
+        if ( doesExist){
             System.out.println("Enter the message: ");
             String text = sc.next();
             if(text.equals("")){
@@ -78,6 +76,9 @@ private static void sendNewMess(){
                 }
             }
             openMenu();
+            
+        } else {
+            System.out.println("Sorry, no result, please check the name again");
         }
         
     }
